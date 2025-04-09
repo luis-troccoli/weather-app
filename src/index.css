@@ -9,6 +9,7 @@
 
 .app {
 min-height: 100vh;
+max-width: 100%;
 display: grid;
 background: linear-gradient(-45deg, #d0552f, #13ba2c, #1a799c, #d0ca15);
 background-size: 300% 300%;
