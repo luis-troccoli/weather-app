@@ -1,5 +1,8 @@
 {
   "name": "weather-app",
+  "homepage": "https://luis-troccoli.github.io/weather-app/",
+  "description": "A simple weather app using React and Vite",
+  "author": "Luis Troccoli",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +10,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
