@@ -67,10 +67,15 @@ useEffect(() => {
   search("Rome");
 }, [])
 
+
   return (
     <div className='weather'>
         <div className="search-bar">
-            <input ref={inputRef} type="text" placeholder='Search for a city...' />
+            <input ref={inputRef} type="text" placeholder='Search for a city...' onKeyDown={(event)=> {
+              if (event.key === "Enter"){
+                search(inputRef.current.value)
+              }
+              }}/>
             <img src={search_icon} alt="" onClick={()=> search(inputRef.current.value)}/>
         </div>
         {weatherData?<>        <img src={weatherData.icon} alt="" className='weather-icon'/>
