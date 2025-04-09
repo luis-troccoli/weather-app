@@ -89,4 +89,19 @@
         margin: 0px;
     }
   }
+
+  @media screen and (max-width: 320px) {
+    .weather {
+        padding: 10px;
+        margin: 0px;
+    }
+  }
     
+
+  @media screen and (max-width: 320px) {
+    .weather {
+        width: 51vh;
+        height: 85vh;
+    }
+  }
+
