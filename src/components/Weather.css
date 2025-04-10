@@ -100,8 +100,8 @@
 
   @media screen and (max-width: 320px) {
     .weather {
-        width: 51vh;
-        height: 85vh;
+          width: 51vh;
+    height: 85vh;
     }
   }
 
