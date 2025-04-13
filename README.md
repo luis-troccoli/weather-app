@@ -14,3 +14,5 @@ This app allows users to search for current weather conditions in any city world
 
 🚀 Live Demo <br></br>
 Check out the live version here: [Weather App](https://luis-troccoli.github.io/weather-app/)
+
+You can copy this repo for yourself; go to the .env file and paste your OpenWeatherMap API.
