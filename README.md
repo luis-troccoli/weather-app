@@ -14,4 +14,4 @@ This app allows users to search for current weather conditions in any city world
 
 
 🚀 Live Demo
-Check out the live version here: Weather App
+Check out the live version here: [Weather App](https://luis-troccoli.github.io/weather-app/)
